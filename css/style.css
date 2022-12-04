@@ -1,0 +1,310 @@
+@font-face {
+  font-family: "Sailec";
+  src: url("../fonts/Sailec-Bold.woff2") format("woff2"),
+    url("../fonts/Sailec-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/titillium-web-v15-latin-regular.woff2") format("woff2"),
+    url("../fonts/titillium-web-v15-latin-regular.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: flex;
+}
+body {
+  font-family: "Titillium Web", San-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #434a54;
+  background-color: #ffffff;
+  
+}
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/* HEADER */
+.header {
+  padding-top: 28px;
+  padding-bottom: 28;
+}
+.header-conatiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-link {
+}
+.logo-img {
+}
+.sitenav {
+}
+.sitenav-list {
+  display: flex;
+}
+.sitenav-item:not(:last-child) {
+  margin-right: 22px;
+}
+.sitenav-link {
+  font-family: "Sailec", "sans-serif";
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  color: rgba(102, 102, 102, 0.85);
+}
+.sitenav-link:hover {
+  color: blueviolet;
+}
+/* MAIN HERO */
+.main {
+}
+.hero {
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info {
+  width: 545px;
+  /* height: 175px; */
+}
+
+.hero-tile {
+  font-family: "Sailec", "sans-serif";
+  font-size: 48px;
+  line-height: 58.08px;
+  letter-spacing: 0.25px;
+  color: #4A4A4A;
+  margin-bottom: 20px;
+}
+.hero-desc {
+ 
+
+}
+.hero-img {
+}
+
+/* section */
+.division-containner{
+
+}
+.division-containner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.division-img {
+}
+.division-info {
+width:520px;
+margin-left: 25px;
+}
+.heading {
+  font-family:"Sailec";
+  font-size: 36px;
+  line-height:43.56px;
+  letter-spacing:0.25px;
+  color: #4A4A4A;
+  margin-bottom: 15px;
+
+}
+.heading-text {
+
+}
+.text {
+  font-family:"Titillium Web" ;
+  margin-top: 28px;
+  font-size: 16px;
+  line-height:25px ;
+  letter-spacing: 0.25px;
+  color: #1D6FF3;
+
+}
+/* DAPARTMENT SECTION */
+.department {
+}
+.container {
+}
+.department-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.department-info {
+  width: 545px;
+}
+.headline {
+  font-family:"Sailec" ;
+  font-size: 36px;
+  line-height:43.56px;
+  line-height: 0.25px;
+  margin-bottom: 35px; 
+  
+}
+.subtitr {
+
+/* margin-top: 30px; */
+}
+.desc {
+  font-family:"Titillium Web" ;
+  font-size: 16px;
+  line-height: 25.6px;
+  letter-spacing: 0.25px;
+  align-items: я;
+  color: #1D6FF3;
+  padding-top: 58px;
+
+
+}
+.department-img {
+}
+
+
+/* FEATURE */
+.form {
+}
+.container {
+}
+.form-blog {
+  align-items: center;
+}
+.text {
+  font-family:"Sailec";
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.25px;
+  color: #4A4A4A;
+  margin-bottom: 12px;
+}
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info {
+font-size: 15px;
+line-height: 25px;
+
+
+  margin-left: 54px;
+}
+.img {
+}
+.form-info-title {
+  margin-left: 30px;
+  font-family: "Sailec";
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.25px;
+ 
+ 
+
+  
+}
+.info-text {
+  font-family: "Titillium Web";
+  font-size: 15px;
+  line-height: 25px;
+  color: #434A54;
+ margin-bottom: 68px;
+
+  margin-top: 15px;
+}
+
+
+/* FATURE 2-QISM */
+
+.container {
+}
+.form2-container {
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+}
+.form {
+}
+.img {
+}
+.form-info-title {
+}
+.info-text {
+}
+
+
+/* FOOTER */
+.site-footer {
+  
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-list {
+ 
+  color: #637280;
+  font-weight:"Sailec" ;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.7px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.site-list-heading{
+  
+  
+}
+.list-text {
+  font-family:"Titillium Web" ;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: #637280;
+  margin-top: 35px;
+}
+.list-link {
+  
+
+}
+/* Logo */
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+
+ 
+
+}
+.icon-facebook {
+}
